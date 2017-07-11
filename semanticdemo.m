@@ -15,8 +15,7 @@ model.opts.nTreesEval = 1;          % for top speed set nTreesEval = 1
 model.opts.nThreads = 4;            % max number threads for evaluation
 model.opts.nms = 0;                 % set to true to enable nms
 
-I = imread('108004.jpg');%'71076.jpg'
-%I = imread('peppers.png');
+I = imread('peppers.png');
 I = im2double(I);
 
 %% Edge-preserving smoothing example
